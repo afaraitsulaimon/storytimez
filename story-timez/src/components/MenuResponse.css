@@ -1,0 +1,26 @@
+.ListRightMenu {
+
+    display:flex;
+
+}
+
+
+@media (max-width: 768px) {
+    .ListRightMenu {
+
+        display:none;
+    }
+
+  }
+
+
+.ListRightMenuSmall{
+
+    display:grid;
+    background-color:rgb(10, 52, 73);
+    color: white;
+    position: absolute;
+      right: 0.2%;
+      top: 9%;
+    width: 100%;
+} 
