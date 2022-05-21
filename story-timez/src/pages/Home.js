@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Menu from '../components/Menu'
 
 
@@ -8,6 +9,8 @@ const Home = () => {
         <Menu/>
 
         <p>Thios is the Home Page</p>
+
+        <Footer/>
     </div>
   )
 }
