@@ -21,11 +21,11 @@ const Footer = () => {
             
             <InfoList>
             <h2>Information</h2>
-                <li>Earn As a writer</li>
-                <li>Privacy Policy</li>
-                <li>How to Post</li>
-                <li>Copyright Policy</li>
-                <li>E</li>
+                <li><Link to=''>Earn As a writer</Link></li>
+                <li><Link to=''>Privacy Policy</Link></li>
+                <li><Link to=''>How to Post</Link></li>
+                <li><Link to=''>Copyright Policy</Link></li>
+                <li><Link to=''>Advertise with Us</Link></li>
             </InfoList>
         </div>
 
@@ -35,9 +35,9 @@ const Footer = () => {
         <span style={{ 'fontWeight':'bold', 'fontSize':'1.2em' }}>Join Us on Social Media</span>
 
             <SocialMediaList>
-                <li><FaFacebook/></li>
-                <li><FaTwitter/></li>
-                <li><FaInstagram/></li>
+                <li><Link to=''><FaFacebook/></Link></li>
+                <li><Link to=''><FaTwitter/></Link></li>
+                <li><Link to=''><FaInstagram/></Link></li>
                
             </SocialMediaList>
         </div>
@@ -80,7 +80,7 @@ const Logo = styled.div`
 
 const LogoFooterLink = styled(Link)`
     text-decoration:none;
-    color:rgb(0,170,255);
+    color:blue;
 `;
 
 
@@ -93,6 +93,17 @@ li{
 
     list-style:none;
     text-align:center;
+
+    a{
+
+        text-decoration:none;
+        color:rgb(0,170,255);
+    }
+
+    a:hover{
+        color:blue;
+        font-weight:bold;
+    }
 }
 
 h2{
@@ -110,6 +121,18 @@ li{
     display:inline-block;
     padding:3em;
 
+
+
+
+    a{
+        color:rgb(0,170,255);
+    }
+
+    a:hover{
+        color:blue;
+        font-weight:bolder;
+
+    }
     
 }
 
