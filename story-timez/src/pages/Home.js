@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import { CategoryLists } from '../components/StoryList'
 import { StoryLists } from '../components/Stories'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import Image from '../images/storyimage.jpg';
 
 // Default theme
 import '@splidejs/react-splide/css';
@@ -328,7 +327,7 @@ const CategoryWrapper = styled.div`
 
 const Card = styled.div`
     min-height:10em;
-   background:rgb(0, 170, 255);;
+   background:rgb(0, 170, 255);
     border-radius:5px;
     color:white;
     cursor:pointer;
