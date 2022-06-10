@@ -12,41 +12,41 @@ const Menu = () => {
 
   const handleResponseMenu = () => {
 
-      if (window.innerWidth < 960) {
-        setMenuStyle(!menustyle);
+    if (window.innerWidth < 960) {
+      setMenuStyle(!menustyle);
       setToggleButton(!toggleButton);
-      }
+    }
   }
 
   return (
     <HeaderStyle>
-        <Logo>
-           
-            <MenuLinks to='/'> StoryTimez</MenuLinks>
+      <Logo>
 
-        </Logo>
+        <MenuLinks to='/'> StoryTimez</MenuLinks>
 
-<RightMenu>
+      </Logo>
 
-      <div  className={menustyle ? `ListRightMenu` : `ListRightMenuSmall`}>
-        <nav className='menu-list'>
+      <RightMenu>
+
+        <div className={menustyle ? `ListRightMenu` : `ListRightMenuSmall`}>
+          <nav className='menu-list'>
             <MenuList>
 
-                <li><MenuLinks to='/about'>About</MenuLinks></li>
-                <li><MenuLinks to='/contact'>Contact</MenuLinks></li>
-                <li><MenuLinks to='/stories'>Stories</MenuLinks></li>
+              <li><MenuLinks to='/about'>About</MenuLinks></li>
+              <li><MenuLinks to='/contact'>Contact</MenuLinks></li>
+              <li><MenuLinks to='/stories'>Stories</MenuLinks></li>
             </MenuList>
-        </nav>
+          </nav>
 
-       <LoginButton>
-         <ButtonLink to='/contact'>Login/Register</ButtonLink>
-       </LoginButton>
+          <LoginButton>
+            <ButtonLink to='/login'>Login/Register</ButtonLink>
+          </LoginButton>
 
-       </div>
+        </div>
 
-       <ResponseButton  onClick={handleResponseMenu}> {toggleButton ? <FaBars /> : <FaTimes/>} </ResponseButton>
+        <ResponseButton onClick={handleResponseMenu}> {toggleButton ? <FaBars /> : <FaTimes />} </ResponseButton>
 
-</RightMenu>
+      </RightMenu>
     </HeaderStyle>
   )
 }
@@ -75,7 +75,7 @@ const RightMenu = styled.div`
 
 
 `;
- 
+
 
 const MenuList = styled.nav`
 list-style: none;

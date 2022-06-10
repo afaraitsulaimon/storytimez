@@ -6,11 +6,11 @@ import Menu from '../components/Menu'
 const Home = () => {
   return (
     <div>
-        <Menu/>
+      <Menu />
 
-        <p>Thios is the Home Page</p>
+      <p>This is the Home Page</p>
 
-        <Footer/>
+      <Footer />
     </div>
   )
 }

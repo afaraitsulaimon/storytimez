@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.register label {
+    text-align: left;
+    display: block;
+}
+
+.register input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 8px;
+}
+
+.register button {
+    width: 100%;
+    background: rgb(0, 170, 255);
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.register a {
+    text-decoration: none;
+    color: rgb(51, 177, 216);
+}
+
+.register button:hover {
+    opacity: 0.9;
+    background: rgb(4, 98, 141);
+}
+
+.register select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 8px;
+}
+
+.register p.reg {
+    margin: 10px 0;
+    color: aqua;
+    font-size: 20px;
+}
