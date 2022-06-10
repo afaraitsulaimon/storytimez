@@ -1,2 +1,0 @@
-# storytimez
-story platform
